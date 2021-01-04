@@ -1,6 +1,6 @@
 #!/usr/bin/env python
-from color import Color, ColorHSV
-from LPD8806 import LPD8806
+from .color import Color, ColorHSV
+from .LPD8806 import LPD8806
 
 #Not all LPD8806 strands are created equal.
 #Some, like Adafruit's use GRB order and the other common order is GRB
